@@ -1,4 +1,4 @@
-# This is pthread sample code for training in 04/14/2015
+# This is pthread sample code for training on 04/14/2015
 
 ##Please follow steps as below.
 
