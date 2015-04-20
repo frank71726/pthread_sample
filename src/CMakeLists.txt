@@ -5,7 +5,7 @@
 MESSAGE("1111111111111111111111111111111111")
 find_package(Threads REQUIRED)
 MESSAGE("2222222222222222222222222222222222")
-add_executable(Pthread main.c)
+add_executable(Pthread main.c llist.c)
 target_link_libraries(Pthread ${CMAKE_THREAD_LIBS_INIT})
 
 #target_link_libraries(LedBlink RPI_LED_LIB)
